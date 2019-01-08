@@ -1,0 +1,31 @@
+{
+  "name": "rvnd",
+  "version": "1.0.0",
+  "description": "decentralized autonomous database over ravencoin",
+  "main": "index.js",
+  "author": "21 Century Motor Company",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "rvndb-code": "^1.0.0",
+    "bigjq": "0.0.7",
+    "ravencoind-rpc": "^1.0.0",
+    "dotenv": "^6.0.0",
+    "iconv-lite": "^0.4.24",
+    "ip": "^1.1.5",
+    "level": "^4.0.0",
+    "mingo": "^2.2.4",
+    "mongodb": "^3.1.4",
+    "p-limit": "^2.0.0",
+    "p-queue": "^3.0.0",
+    "tna": "0.1.2",
+    "traverse": "^0.6.6",
+    "zeromq": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1"
+  }
+}
