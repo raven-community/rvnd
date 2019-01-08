@@ -7,7 +7,7 @@ const Config = require('./config.js')
 const queue = new pQueue({concurrency: Config.rpc.limit})
 const mingo = require('mingo')
 const jq = require('bigjq')
-const rvndb-code = require('rvndb-code')
+const rvndb_code = require('rvndb-code')
 
 const Filter = require('./rvndb.json')
 
@@ -23,7 +23,7 @@ const init = function(db, info) {
     Info = info
 
     if (Filter.filter && Filter.filter.q && Filter.filter.q.find) {
-      let query = rvndb-code.encode(Filter.filter.q.find)
+      let query = rvndb_code.encode(Filter.filter.q.find)
       filter = new mingo.Query(query)
     } else {
       filter = null
@@ -127,7 +127,7 @@ const crawl = async function(block_index) {
       })
 
       if (processor) {
-        rtxs = rvndb-code.decode(rtxs)
+        rtxs = rvndb_code.decode(rtxs)
         rtxs  = await jq.run(processor, rtxs)
       }
       console.log('Filtered Xputs = ', rtxs.length)
