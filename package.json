@@ -10,9 +10,9 @@
     "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
-    "rvndb-code": "^1.0.0",
+    "rvndb-code": "github:raven-community/rvndb-code#master",
     "bigjq": "0.0.7",
-    "ravencoind-rpc": "^1.0.0",
+    "ravencoind-rpc": "github:raven-community/ravencoind-rpc#master",
     "dotenv": "^6.0.0",
     "iconv-lite": "^0.4.24",
     "ip": "^1.1.5",
