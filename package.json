@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "rvndb-code": "github:raven-community/rvndb-code#master",
-    "bigjq": "0.0.7",
+    "bigjq": "github:raven-community/bigjq#master",
     "ravencoind-rpc": "github:raven-community/ravencoind-rpc#master",
     "dotenv": "^6.0.0",
     "iconv-lite": "^0.4.24",
