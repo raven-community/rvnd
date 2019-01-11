@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "description": "decentralized autonomous database over ravencoin",
   "main": "index.js",
-  "author": "21 Century Motor Company",
+  "author": "MSFTserver",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raven-community/rvnd.git"
+  },
   "scripts": {
     "start": "node index",
     "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
-    "rvndb-code": "github:raven-community/rvndb-code#master",
-    "bigjq": "github:raven-community/bigjq#master",
-    "ravencoind-rpc": "github:raven-community/ravencoind-rpc#master",
+    "rvndb-code": "^1.0.0",
+    "bigjq": "github:raven-community/bigjq/tree/1.0.0",
+    "ravencoind-rpc": "^1.0.0",
     "dotenv": "^6.0.0",
     "iconv-lite": "^0.4.24",
     "ip": "^1.1.5",
@@ -21,7 +25,7 @@
     "mongodb": "^3.1.4",
     "p-limit": "^2.0.0",
     "p-queue": "^3.0.0",
-    "tna": "github:raven-community/tna#master",
+    "tna": "github:raven-community/tna/tree/1.0.0",
     "traverse": "^0.6.6",
     "zeromq": "^4.6.0"
   },
