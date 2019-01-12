@@ -1,6 +1,6 @@
 {
   "name": "rvnd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "decentralized autonomous database over ravencoin",
   "main": "index.js",
   "author": "MSFTserver",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "rvndb-code": "^1.0.0",
-    "bigjq": "github:raven-community/bigjq/tree/1.0.0",
+    "bigjq": "github:raven-community/bigjq#master",
     "ravencoind-rpc": "^1.0.0",
     "dotenv": "^6.0.0",
     "iconv-lite": "^0.4.24",
@@ -25,7 +25,7 @@
     "mongodb": "^3.1.4",
     "p-limit": "^2.0.0",
     "p-queue": "^3.0.0",
-    "tna": "github:raven-community/tna/tree/1.0.0",
+    "tna": "github:raven-community/tna#master",
     "traverse": "^0.6.6",
     "zeromq": "^4.6.0"
   },
