@@ -1,13 +1,10 @@
 {
   "name": "rvnd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "decentralized autonomous database over ravencoin",
   "main": "index.js",
   "author": "MSFTserver",
   "license": "MIT",
-  "bin": {
-    "rvnd": "node index"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/raven-community/rvnd.git"
